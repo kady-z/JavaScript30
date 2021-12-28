@@ -82,7 +82,6 @@
       const secondsDegrees = (seconds / 60)*360 + 90;
       const minuteDegrees = minutes*6 + 90;
       const hourDegrees = (hour%12)*30 + minutes*0.5  + 90;
-      console.log(hour);
       secondHand.style.transform = `rotate(${secondsDegrees}deg)`;
       minuteHand.style.transform = `rotate(${minuteDegrees}deg)`;
       hourHand.style.transform = `rotate(${hourDegrees}deg)`;
